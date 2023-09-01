@@ -1,0 +1,109 @@
+:root {
+    --blue: #4d4df1; 
+}
+
+ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.editDelete-btn {
+    text-align: center;
+    padding: .5rem 1rem;
+    margin: 3rem 4rem;
+    border-radius: 1rem;
+    width: 10rem;
+    align-items: center;
+    background: var(--blue);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.color {
+    opacity: 2;
+}
+
+.new-product h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form input:focus {
+    outline: 0.5px solid var(--blue);
+}
+
+.form-conteiner {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-conteiner label {
+    margin-bottom: 0.5rem;
+}
+
+.form-conteiner input {
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+fieldset {
+    height: 36rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: #1535ec29 0px 3px 6px, #2341fe3b 0px 3px 6px;
+}
+
+fieldset legend {
+    font-size: 30px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    height: 2rem;
+    width: 25rem;
+    text-align: center;
+    border-radius: 12px;
+    border-width: 1px;
+}
+
+.input-group {
+    display: block;
+    padding: 20px;
+}
+
+form button:active {
+    background-color: #115eb0;
+    box-shadow: #273d78 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.btn {
+    padding: .5rem 1rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    width: 10rem;
+    align-items: center;
+    border-width: 0px;
+    font-size: 16px;
+    color: #fff;
+    background: var(--blue);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+@media (max-width:1020px) {
+    form {
+        margin-left: 26%;
+    }
+}

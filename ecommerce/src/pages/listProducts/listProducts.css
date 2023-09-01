@@ -1,0 +1,54 @@
+h1 {
+    margin: 5rem 10rem 6rem 28rem;
+    font-size: 50px;
+}
+
+.lista-product {
+    padding: 1%;
+    height: 16rem;
+    width: 10rem;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #7a7a7adc;
+}
+
+.bloco {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    gap: 5px;
+}
+
+.title-product {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 40% 10% 30%;
+    color: #fff;
+}
+
+.description {
+    font-size: 22px;
+    margin: 17px;
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+}
+
+.preco {
+    text-align: center;
+    color: #f4ecec;
+}
+
+@media (max-width:1020px) {
+    h1 {
+        font-size: 30px;
+        margin: 2rem 1rem 2rem 7rem;
+    }
+
+    .bloco {
+        margin-left: 23%;
+    }
+}
+
+
+

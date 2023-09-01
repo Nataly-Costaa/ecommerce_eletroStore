@@ -1,0 +1,53 @@
+.bloco-put-delete {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 5%;
+    gap: 1rem;
+}
+
+.put-delete {
+    padding: 2.5%;
+    height: 14rem;
+    width: 11rem;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #7a7a7adc;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 40% 10% 30%;
+}
+
+.btn-delete-edit {
+    padding: 14px;
+}
+
+.btn-delete {
+    padding: 5px;
+    margin-right: 12px;
+    border-radius: 13px;
+    border-width: 1px;
+    font-size: 18px;
+    background-color: #c23636;
+    color: #fff;
+}
+.btn-edit {
+    padding: 5px;
+    border-radius: 13px;
+    border-width: 1px;
+    font-size: 18px;
+}
+
+.btn-edit a {
+    color: black;
+}
+
+@media (max-width:1020px) {
+    .bloco-put-delete {
+        margin-left: 23%;
+    }
+}
+
+
